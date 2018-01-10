@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactRow /> checking the layout renders the component 1`] = `
+<article
+  className="contact"
+>
+  <span
+    className="item"
+  >
+    <a
+      href="/edit/1"
+      onClick={[Function]}
+    >
+      Andoni
+    </a>
+  </span>
+  <span
+    className="item"
+  >
+    Arroyo
+  </span>
+  <span
+    className="item"
+  >
+    <a
+      href="mailto:andoni.arroyo@gmail.com"
+    >
+      andoni.arroyo@gmail.com
+    </a>
+  </span>
+  <span
+    className="item"
+  >
+    United Kingdom
+  </span>
+  <span
+    className="item item-final"
+  >
+    <button
+      id="remove-button"
+      onClick={[Function]}
+    >
+      Remove it!
+    </button>
+  </span>
+</article>
+`;

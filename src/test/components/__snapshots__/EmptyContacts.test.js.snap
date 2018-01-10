@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmptyContacts /> renders the component 1`] = `
+<article
+  className="empty-container"
+>
+  Your address book is empty so far... Why not create a new contact?
+</article>
+`;

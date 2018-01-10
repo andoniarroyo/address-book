@@ -1,0 +1,45 @@
+@import "./base/_variables";
+
+@font-face {
+  font-family: addresBookFont;
+  src: url("../assets/fonts/FjallaOne-Regular.ttf");
+}
+
+html {
+color: $text-color;
+font-family: addresBookFont;
+font-size: $default-font-size;
+}
+
+body {
+margin: 20px;
+}
+
+button {
+padding: $big-space;
+margin: $default-space;
+}
+
+input {
+font-size: $default-font-size;
+width: 100%;
+margin: $default-space 0;
+}
+
+select {
+font-size: $default-font-size;
+width: 100%;
+margin: $default-space 0;
+}
+
+button {
+padding: $big-space;
+margin:  $default-space 0;
+}
+
+.contact-list {
+  display: table;
+  width: 100%; 
+  min-width: 600px;
+  padding: $default-space 0;
+}

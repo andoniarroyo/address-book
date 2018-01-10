@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddressBook /> renders the component 1`] = `
+<main>
+  <header>
+    <h3>
+      Address book
+    </h3>
+    <a
+      href="/add"
+      onClick={[Function]}
+    >
+      Create a new contact
+    </a>
+  </header>
+  <section
+    className="contact-list"
+  >
+    <article
+      className="contact"
+    >
+      <span
+        className="item"
+      >
+        <a
+          href="/edit/1"
+          onClick={[Function]}
+        >
+          Andoni
+        </a>
+      </span>
+      <span
+        className="item"
+      >
+        Arroyo
+      </span>
+      <span
+        className="item"
+      >
+        <a
+          href="mailto:andoni.arroyo@gmail.com"
+        >
+          andoni.arroyo@gmail.com
+        </a>
+      </span>
+      <span
+        className="item"
+      >
+        United Kingdom
+      </span>
+      <span
+        className="item item-final"
+      >
+        <button
+          id="remove-button"
+          onClick={[Function]}
+        >
+          Remove it!
+        </button>
+      </span>
+    </article>
+    <article
+      className="contact"
+    >
+      <span
+        className="item"
+      >
+        <a
+          href="/edit/2"
+          onClick={[Function]}
+        >
+          Naiara
+        </a>
+      </span>
+      <span
+        className="item"
+      >
+        Saratxaga
+      </span>
+      <span
+        className="item"
+      >
+        <a
+          href="mailto:nsaratx@gmail.com"
+        >
+          nsaratx@gmail.com
+        </a>
+      </span>
+      <span
+        className="item"
+      >
+        Spain
+      </span>
+      <span
+        className="item item-final"
+      >
+        <button
+          id="remove-button"
+          onClick={[Function]}
+        >
+          Remove it!
+        </button>
+      </span>
+    </article>
+  </section>
+</main>
+`;

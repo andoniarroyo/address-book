@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InvalidContact /> renders the component 1`] = `
+<article
+  className="invalid-container"
+>
+  <header>
+    Ops! This is not a valid contact...
+  </header>
+  <section>
+    You can create a 
+    <a
+      href="/add"
+      onClick={[Function]}
+    >
+       new contact
+    </a>
+     or you can go to the 
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+       home page
+    </a>
+  </section>
+</article>
+`;
